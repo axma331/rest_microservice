@@ -1,0 +1,202 @@
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john.doe@example.com"
+}
+
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "Block Kenan",
+  "email": "block.kenan@example.com"
+}
+
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "Ivan Ivanov",
+  "email": "ivanov@mail.ru"
+}
+
+
+###
+POST http://localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": "Petr Petrov",
+  "email": "petrov@mail.ru"
+}
+
+
+
+
+###
+GET http://localhost:8080/users/1
+
+
+###
+GET http://localhost:8080/users
+
+
+###
+PUT http://localhost:8080/users/1
+Content-Type: application/json
+
+{
+  "name": "John Updated",
+  "email": "john.updated@example.com"
+}
+
+
+
+###
+DELETE http://localhost:8080/users/1
+
+###
+GET http://localhost:8080/users
+
+
+###
+POST http://localhost:8080/users/2/subscriptions
+Content-Type: application/json
+
+{
+  "name": "YouTube"
+}
+
+
+###
+POST http://localhost:8080/users/2/subscriptions
+Content-Type: application/json
+
+{
+  "name": "RuTube"
+}
+
+
+###
+POST http://localhost:8080/users/2/subscriptions
+Content-Type: application/json
+
+{
+  "name": "TuTube"
+}
+
+
+###
+POST http://localhost:8080/users/2/subscriptions
+Content-Type: application/json
+
+{
+  "name": "CheTube"
+}
+
+
+###
+POST http://localhost:8080/users/3/subscriptions
+Content-Type: application/json
+
+{
+  "name": "YouTube"
+}
+
+
+###
+POST http://localhost:8080/users/3/subscriptions
+Content-Type: application/json
+
+{
+  "name": "RuTube"
+}
+
+###
+POST http://localhost:8080/users/3/subscriptions
+Content-Type: application/json
+
+{
+  "name": "TuTube"
+}
+
+
+###
+POST http://localhost:8080/users/3/subscriptions
+Content-Type: application/json
+
+{
+  "name": "CheTube"
+}
+
+
+###
+POST http://localhost:8080/users/4/subscriptions
+Content-Type: application/json
+
+{
+  "name": "YouTube"
+}
+
+
+###
+POST http://localhost:8080/users/4/subscriptions
+Content-Type: application/json
+
+{
+  "name": "RuTube"
+}
+
+
+###
+POST http://localhost:8080/users/4/subscriptions
+Content-Type: application/json
+
+{
+  "name": "TuTube"
+}
+
+
+###
+POST http://localhost:8080/users/5/subscriptions
+Content-Type: application/json
+
+{
+  "name": "YouTube"
+}
+
+###
+POST http://localhost:8080/users/5/subscriptions
+Content-Type: application/json
+
+{
+  "name": "RuTube"
+}
+
+###
+POST http://localhost:8080/users/5/subscriptions
+Content-Type: application/json
+
+{
+  "name": "TuTube"
+}
+
+###
+POST http://localhost:8080/users/5/subscriptions
+Content-Type: application/json
+
+{
+  "name": "CheTube"
+}
+
+###
+GET http://localhost:8080/subscriptions/top
+
+
